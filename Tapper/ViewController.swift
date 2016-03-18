@@ -37,8 +37,35 @@ class ViewController: UIViewController {
             tapBtn.hidden = false
             tapsLbl.hidden = false
             
-            tapsLbl.text = "\(currentTaps) Taps!"
+            updateTapsLbl()
         }
+    }
+    
+    @IBAction func onCoinTapped(sender: UIButton!) {
+        currentTaps++
+        updateTapsLbl()
+        if isGameOver() {
+            maxTaps = 0
+            howManyTapsTxt.text = ""
+            logoImg.hidden = false
+            howManyTapsTxt.hidden = false
+            playBtn.hidden = false
+            
+            tapBtn.hidden = true
+            tapsLbl.hidden = true
+            
+        }
+    }
+    
+    func isGameOver() -> Bool {
+        if currentTaps >= maxTaps {
+            return true
+        }
+        return false
+    }
+    
+    func updateTapsLbl() {
+        tapsLbl.text = "\(currentTaps) Taps"
     }
     
     
