@@ -27,8 +27,8 @@
                                     <constraint firstAttribute="height" constant="77" id="jGu-H3-Tyf"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl3-gV-6Y6" userLabel="PlayButton">
-                                <rect key="frame" x="208" y="420" width="184" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl3-gV-6Y6" userLabel="PlayButton">
+                                <rect key="frame" x="175.5" y="388" width="249" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="EQe-vR-kDo"/>
                                     <constraint firstAttribute="width" constant="249" id="VlS-hX-4Bv"/>
@@ -38,8 +38,8 @@
                                     <action selector="onPlayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u2U-TE-vqN"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How Many Taps To WIn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KV2-zW-26E" userLabel="tapText">
-                                <rect key="frame" x="208" y="369" width="184" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How Many Taps To WIn" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KV2-zW-26E" userLabel="tapText">
+                                <rect key="frame" x="175.5" y="322" width="249" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="l2U-Dp-1Gf"/>
                                     <constraint firstAttribute="width" constant="249" id="w6f-kY-dSr"/>
@@ -47,8 +47,8 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FJ-Dh-EX9" userLabel="TapButton">
-                                <rect key="frame" x="214" y="64" width="172" height="177"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7FJ-Dh-EX9" userLabel="TapButton">
+                                <rect key="frame" x="214" y="28" width="172" height="177"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="177" id="Ww1-6M-aFi"/>
                                     <constraint firstAttribute="width" constant="172" id="mvY-Wc-lTA"/>
@@ -58,8 +58,8 @@
                                     <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y9o-Ch-QIa"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsL-Gt-ssD" userLabel="Taplbl">
-                                <rect key="frame" x="168" y="285" width="265" height="45"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsL-Gt-ssD" userLabel="Taplbl">
+                                <rect key="frame" x="112" y="249" width="377" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="0ez-Ns-3cI"/>
                                     <constraint firstAttribute="width" constant="377" id="is8-l7-fwH"/>
